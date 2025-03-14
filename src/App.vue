@@ -1,13 +1,13 @@
 <script setup>
-import TutorHero from '../../../Desktop/components/TutorHero.vue'
-// import AboutTutor from '../../../Desktop/components/AboutTutor.vue'
-// import Services from '../../../Desktop/components/Services.vue'
-// import Advantages from '../../../Desktop/components/Advantages.vue'
-// import PriceTable from '../../../Desktop/components/PriceTable.vue'
-// import Testimonials from '../../../Desktop/components/Testimonials.vue'
-// import FAQ from '../../../Desktop/components/FAQ.vue'
-// import ContactForm from '../../../Desktop/components/ContactForm.vue'
-// import Footer from '../../../Desktop/components/Footer.vue'
+import TutorHero from '@/components/TutorHero.vue'
+import AboutTutor from '@/components/AboutTutor.vue'
+import Services from '@/components/Services.vue'
+import Advantages from '@/components/Advantages.vue'
+import PriceTable from '@/components/PriceTable.vue'
+import Testimonials from '@/components/Testimonials.vue'
+import FAQ from '@/components/FAQ.vue'
+import ContactForm from '@/components/ContactForm.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -31,16 +31,16 @@ import TutorHero from '../../../Desktop/components/TutorHero.vue'
 
   <main>
     <TutorHero />
-<!--    <AboutTutor />-->
-<!--    <Services />-->
-<!--    <Advantages />-->
-<!--    <PriceTable />-->
-<!--    <Testimonials />-->
-<!--    <FAQ />-->
-<!--    <ContactForm />-->
+    <AboutTutor />
+    <Services />
+    <Advantages />
+    <PriceTable />
+    <Testimonials />
+    <FAQ />
+    <ContactForm />
   </main>
 
-<!--  <Footer />-->
+  <Footer />
 </template>
 
 <style>
