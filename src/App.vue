@@ -1,5 +1,5 @@
 <script setup>
-import TutorHero from '@/components/TutorHero.vue'
+import TutorHero from '../../../Desktop/components/TutorHero.vue'
 // import AboutTutor from '../../../Desktop/components/AboutTutor.vue'
 // import Services from '../../../Desktop/components/Services.vue'
 // import Advantages from '../../../Desktop/components/Advantages.vue'
